@@ -837,7 +837,7 @@ footer {
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid var(--border);
@@ -914,16 +914,9 @@ footer {
 }
 
 .footer-contato-info li {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
   color: var(--text-muted);
   font-size: 0.85rem;
-}
-
-.footer-contato-info li span {
-  font-size: 1rem;
-  flex-shrink: 0;
+  padding: 2px 0;
 }
 
 .footer-bottom {
@@ -990,6 +983,11 @@ footer {
 
   .footer-grid {
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .footer-sobre {
+    grid-column: 1 / -1;
   }
 
   .sobre-stats {
