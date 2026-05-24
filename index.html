@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Arena Gamer Store — Os melhores periféricos e setups gamer do Brasil." />
+  <title>Arena Gamer Store</title>
+  <link rel="stylesheet" href="src/css/estilo.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Arena<span>Gamer</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="ativo">Home</a></li>
+        <li><a href="pages/portfolio.html">Portfólio</a></li>
+        <li><a href="pages/sobre.html">Sobre</a></li>
+        <li><a href="pages/contato.html">Contato</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-badge">⚡ Promoção por tempo limitado</span>
+      <h1>
+        Seu Setup.
+        <span class="destaque">Sua Arena.</span>
+      </h1>
+      <p>Periféricos e equipamentos gamer com o melhor custo-benefício do mercado. Entrega rápida e suporte especializado.</p>
+      <div class="hero-btns">
+        <a href="pages/portfolio.html" class="btn-primary">Ver Produtos</a>
+        <a href="pages/sobre.html" class="btn-outline">Conheça a Loja</a>
+      </div>
+
+      <p class="contador-label">🔥 A promoção encerra em</p>
+      <div class="contador">
+        <div class="tempo-item">
+          <span class="numero" id="dias">00</span>
+          <span class="legenda">Dias</span>
+        </div>
+        <div class="tempo-item">
+          <span class="numero" id="horas">00</span>
+          <span class="legenda">Horas</span>
+        </div>
+        <div class="tempo-item">
+          <span class="numero" id="minutos">00</span>
+          <span class="legenda">Min</span>
+        </div>
+        <div class="tempo-item">
+          <span class="numero" id="segundos">00</span>
+          <span class="legenda">Seg</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="diferenciais">
+    <div class="container">
+      <div class="diferenciais-grid">
+        <div class="diferencial-item fade-in">
+          <span class="icone">🚚</span>
+          <h3>Frete Grátis</h3>
+          <p>Em compras acima de R$ 299,00 para todo o Brasil</p>
+        </div>
+        <div class="diferencial-item fade-in">
+          <span class="icone">🎮</span>
+          <h3>Especialistas Gamer</h3>
+          <p>Equipe que vive o universo gamer e sabe o que você precisa</p>
+        </div>
+        <div class="diferencial-item fade-in">
+          <span class="icone">🔒</span>
+          <h3>Compra Segura</h3>
+          <p>Pagamento criptografado e garantia em todos os produtos</p>
+        </div>
+        <div class="diferencial-item fade-in">
+          <span class="icone">💬</span>
+          <h3>Suporte 24/7</h3>
+          <p>Atendimento via chat, e-mail e telefone todos os dias</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUTOS EM DESTAQUE -->
+  <section>
+    <div class="container">
+      <div class="section-title fade-in">
+        <h2>Produtos em <span class="destaque">Destaque</span></h2>
+        <p>Seleção especial dos produtos mais vendidos da semana</p>
+        <div class="linha"></div>
+      </div>
+      <div class="produtos-grid">
+        <div class="card-produto fade-in">
+          <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&q=80" alt="Mouse Gamer" />
+          <div class="card-body">
+            <span class="badge-estoque disponivel">Em estoque</span>
+            <h3>Mouse Gamer Logitech G502</h3>
+            <p class="descricao">25.600 DPI, 11 botões programáveis, RGB LIGHTSYNC</p>
+            <div class="card-preco">
+              <span class="preco-atual">R$ 299,99</span>
+              <span class="preco-antigo">R$ 399,99</span>
+            </div>
+            <a href="pages/portfolio.html" class="btn-primary">Ver mais</a>
+          </div>
+        </div>
+        <div class="card-produto fade-in">
+          <img src="https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=400&q=80" alt="Teclado Mecânico" />
+          <div class="card-body">
+            <span class="badge-estoque disponivel">Em estoque</span>
+            <h3>Teclado Mecânico HyperX Alloy</h3>
+            <p class="descricao">Switches Cherry MX Red, RGB, anti-ghosting total</p>
+            <div class="card-preco">
+              <span class="preco-atual">R$ 459,99</span>
+              <span class="preco-antigo">R$ 579,99</span>
+            </div>
+            <a href="pages/portfolio.html" class="btn-primary">Ver mais</a>
+          </div>
+        </div>
+        <div class="card-produto fade-in">
+          <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=80" alt="Headset Gamer" />
+          <div class="card-body">
+            <span class="badge-estoque limitado">Últimas unidades</span>
+            <h3>Headset Corsair HS70 Wireless</h3>
+            <p class="descricao">Sem fio 2.4GHz, som surround 7.1, até 16h de bateria</p>
+            <div class="card-preco">
+              <span class="preco-atual">R$ 389,99</span>
+              <span class="preco-antigo">R$ 499,99</span>
+            </div>
+            <a href="pages/portfolio.html" class="btn-primary">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:40px;">
+        <a href="pages/portfolio.html" class="btn-outline">Ver Todos os Produtos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-sobre">
+        <a href="index.html" class="logo">Arena<span>Gamer</span></a>
+        <p>Desde 2019 levando o melhor do universo gamer para jogadores de todo o Brasil. Qualidade, confiança e paixão pelo que fazemos.</p>
+        <div class="redes-sociais">
+          <a href="#" class="rede-btn" title="Instagram">📸</a>
+          <a href="#" class="rede-btn" title="Twitter">🐦</a>
+          <a href="#" class="rede-btn" title="YouTube">▶️</a>
+          <a href="#" class="rede-btn" title="Discord">💬</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/portfolio.html">Portfólio</a></li>
+          <li><a href="pages/sobre.html">Sobre</a></li>
+          <li><a href="pages/contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Categorias</h4>
+        <ul>
+          <li><a href="pages/portfolio.html">Mouses</a></li>
+          <li><a href="pages/portfolio.html">Teclados</a></li>
+          <li><a href="pages/portfolio.html">Headsets</a></li>
+          <li><a href="pages/portfolio.html">Monitores</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul class="footer-contato-info">
+          <li><span>📞</span>(11) 99999-9999</li>
+          <li><span>✉️</span>contato@arenagamer.com</li>
+          <li><span>📍</span>São Paulo, SP — Brasil</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 <span class="feito-por">Arena Gamer Store</span>. Todos os direitos reservados.</p>
+      <p>Feito com ❤️ para a comunidade gamer</p>
+    </div>
+  </footer>
+
+  <script src="src/js/script.js"></script>
+</body>
+</html>
